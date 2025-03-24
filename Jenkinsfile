@@ -2,9 +2,9 @@ import groovy.json.JsonSlurper
 
 node {
   withEnv([
-    'AZURE_SUBSCRIPTION_ID=8f05bf3a-7fc0-4937-a58d-93380154e18d',
-    'AZURE_TENANT_ID=aa05f5be-0265-4c8a-ae7f-5f78a08d388c'
-  ]) {
+  'AZURE_SUBSCRIPTION_ID=8f05bfa3-7fc0-4937-a58d-93380154e18d',
+  'AZURE_TENANT_ID=aa05f5be-0265-4c8a-ae7f-5f78a08d388c'
+])
 
     stage('init') {
       checkout scm
