@@ -39,7 +39,9 @@ node {
         --src-path target/calculator-1.0.war \
         --type war
       az logout
-    '''
+            '''
+      }
+    }
   }
 }
 
